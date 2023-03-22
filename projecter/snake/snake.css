@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'TiltWarp';
+    src: url(/fonts/TiltWarp.ttf);
+    font-weight: lighter;
+}
+
+body {
+    background-color: darkgrey;
+    font-family: 'TiltWarp';
+    font-weight: lighter;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'TiltWarp';
+    font-size: 50px;
+    padding: 2px;
+    margin: 2px;
+    color: black;
+}
+
+.back {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: 'TiltWarp';
+}
+
+.title {
+    font-size: 50px;
+}

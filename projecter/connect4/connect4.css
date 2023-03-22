@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'TiltWarp';
+    src: url(/fonts/TiltWarp.ttf);
+    font-weight: lighter;
+}
+
+body {
+    background-color: darkgrey;
+    font-family: 'TiltWarp';
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+hr {
+    width: 500px;
+}
+
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: black;
+    border: 10px black;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: darkgrey;
+    border-radius: 50%;
+    border: 5px solid black
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: blue
+}
+
+.title {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.winner {
+    font-size: 35px;
+}
+
+.back {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: 'TiltWarp';
+}
